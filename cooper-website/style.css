@@ -1,0 +1,58 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-style: italic; /* Cooper logo vibe */
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.products {
+  display: flex;              /* makes items horizontal */
+  justify-content: center;    /* center the row */
+  gap: 20px;                  /* space between items */
+  flex-wrap: wrap;            /* allows wrapping on small screens */
+  margin-top: 30px;           /* optional spacing from above */
+}
+
+
+.product {
+  background-color: #fff;
+  padding: 30px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo-text {
+  font-family: 'Brush Script MT', cursive;
+  font-style: italic;
+  font-size: 60px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+.logo {
+  max-width: 400px;
+  height: auto;
+}
